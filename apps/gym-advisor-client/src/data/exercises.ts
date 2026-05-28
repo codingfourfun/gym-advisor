@@ -47,7 +47,7 @@ export const exercises: Exercise[] =[
         name: 'Dumbell Bicep Curl',
         muscleGroup: 'arms',
         subMuscle: 'biceps',
-        iamgeUrl: 'https://picsum.photos/id/1074/400/300',
+        imageUrl: 'https://picsum.photos/id/1074/400/300',
         formTips: [
             "Keep elbows tucked close to your sides",
             "Control the weight slowly on the way down",

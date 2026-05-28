@@ -1,5 +1,5 @@
 import React from 'react';
-import { MuscleGroup } from '../types';
+import type { MuscleGroup } from '../types';
 
 // Props Interface
 interface MuscleGroupSelectorProps {
