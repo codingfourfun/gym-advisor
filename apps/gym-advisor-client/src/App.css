@@ -1,0 +1,9 @@
+.App {
+  text-align: center;
+  padding: 40px;
+}
+
+.App h1 {
+  font-size: 3rem;
+  margin-bottom: 16px;
+}
