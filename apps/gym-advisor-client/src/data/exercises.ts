@@ -1,6 +1,7 @@
 // Sample data to build the UI immediately
 
-import { MuscleGroup, Exercise } from '../types';
+import type { MuscleGroup } from '../types';
+import type { Exercise } from '../types';
 
 export const muscleGroups: MuscleGroup[] = [
     {
