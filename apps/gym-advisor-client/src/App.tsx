@@ -1,20 +1,13 @@
 // src/App.tsx
 
 import React from 'react';
-
-// Import the data
 import { muscleGroups } from './data/exercises';
-
-// Import the component you just created
 import { MuscleGroupSelector } from './components/MuscleGroupSelector';
 
 function App() {
-
-  // Handler function - this will run when user clicks a muscle group
   const handleMuscleSelect = (group: any) => {
-    console.log("User selected:", group.displayName);
-    // Later we will show exercises for this group
-    alert(`You selected ${group.displayName} - Next we will show exercises`);
+    console.log("Selected:", group.displayName);
+    alert(`You clicked ${group.displayName} - Good job!`);
   };
 
   return (
